@@ -1,13 +1,13 @@
 # SFMOMA Dashboard App
 
-## Table of contents
+## Table of Contents
 
 - [Description](#-description)
   - [Graphs](#--graphs)
-  - [Artwork Query](#--artwork-query)
+  - [Artwork Query](#-artwork-query)
 - [How to run this app locally](#-how-to-run-this-app-locally)
-  - [Installation](#--installation)
-  - [Start Servers](#--start-servers)
+  - [Installation](#installation-)
+  - [Start Servers](#start-servers-)
 - [Tecnologies](#-technologies)
 
 ## 🎨 Description
