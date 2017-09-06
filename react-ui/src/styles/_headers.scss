@@ -1,0 +1,65 @@
+@import 'colors.scss';
+
+.header-div {
+  z-index: 1;
+}
+
+.top-header {
+  background-color: $header-orange;
+  font-family: $header-font;
+  padding-bottom: 16px;
+  color: white;
+  font-size: 3.5em;
+}
+
+.ribbon-header {
+ font-size: 24px !important;
+ width: 50%;
+
+ @media (max-width: 575px) {
+   width: 250px;
+   margin: 2em auto 1em;
+    padding: 1.1em 1em;
+ }
+
+ position: relative;
+ background: $header-gold;
+ color: #fff;
+ text-align: center;
+ padding: 1.1em 2em;
+ margin: 2em auto 3em;
+}
+.ribbon-header:before, .ribbon-header:after {
+ content: "";
+ position: absolute;
+ display: block;
+ bottom: -1em;
+ border: 2em solid $header-gold-shadow;
+ z-index: -1;
+}
+.ribbon-header:before {
+ left: -2em;
+ border-right-width: 1.5em;
+ border-left-color: transparent;
+}
+.ribbon-header:after {
+ right: -2em;
+ border-left-width: 1.5em;
+ border-right-color: transparent;
+}
+.ribbon-header .ribbon-header-content:before, .ribbon-header .ribbon-header-content:after {
+ content: "";
+ position: absolute;
+ display: block;
+ border-style: solid;
+ border-color: #804f7c transparent transparent transparent;
+ bottom: -1em;
+}
+.ribbon-header .ribbon-header-content:before {
+ left: 0;
+ border-width: 1em 0 0 1em;
+}
+.ribbon-header .ribbon-header-content:after {
+ right: 0;
+ border-width: 1em 1em 0 0;
+}

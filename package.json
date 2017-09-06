@@ -1,7 +1,7 @@
 {
-  "name": "heroku-cra-node",
+  "name": "sfmoma-app",
   "version": "1.0.0",
-  "description": "How to use create-react-app with a custom Node API on Heroku",
+  "description": "A dashboard that uses SFMOMA's API",
   "engines": {
     "node": "6.11.x"
   },
@@ -14,7 +14,9 @@
     "react-ui/node_modules"
   ],
   "dependencies": {
-    "express": "^4.14.1"
+    "express": "^4.14.1",
+    "dotenv": "^4.0.0",
+    "request": "^2.81.0"
   },
   "repository": {
     "type": "git",
@@ -27,5 +29,6 @@
     "react"
   ],
   "license": "MIT",
-  "devDependencies": {}
+  "devDependencies": {},
+  "author": "Erin Mahoney"
 }

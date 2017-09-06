@@ -1,0 +1,21 @@
+// Global styles //
+@import 'colors.scss';
+@import 'fonts.scss';
+@import 'containers.scss';
+@import 'headers.scss';
+
+// Component styles //
+@import 'artwork.scss';
+@import 'graph.scss';
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  font-family: $header-font;
+  background-color: $background-gray;
+  max-width: 100%;
+}
+
+.orange {
+  color: $header-orange;
+}

@@ -1,0 +1,102 @@
+.ribbon-div {
+  margin-top: 3em; }
+
+.artwork-container {
+  position: relative;
+  bottom: 4em; }
+  .artwork-container .artwork-input-container {
+    z-index: 2; }
+    .artwork-container .artwork-input-container .search-input {
+      width: 40%;
+      height: 100%;
+      margin: 0 auto;
+      font-size: 2em;
+      background: none;
+      border-bottom: solid 4px #FF6347;
+      border-top: none;
+      border-right: none;
+      border-left: none;
+      box-shadow: none;
+      border-radius: 0;
+      transition: border 0.3s; }
+      @media (max-width: 575px) {
+        .artwork-container .artwork-input-container .search-input {
+          width: 70%;
+          margin-top: 80px; } }
+      .artwork-container .artwork-input-container .search-input input[type="text"] {
+        color: #FF6347;
+        /* WebKit, Blink, Edge */
+        /* Mozilla Firefox 4 to 18 */
+        /* Mozilla Firefox 19+ */
+        /* Internet Explorer 10-11 */
+        /* Microsoft Edge */ }
+        .artwork-container .artwork-input-container .search-input input[type="text"]:focus {
+          border-bottom: solid 2px #FF6347; }
+        .artwork-container .artwork-input-container .search-input input[type="text"]::-webkit-input-placeholder {
+          color: #FF6347; }
+        .artwork-container .artwork-input-container .search-input input[type="text"]:-moz-placeholder {
+          color: #FF6347; }
+        .artwork-container .artwork-input-container .search-input input[type="text"]::-moz-placeholder {
+          color: #FF6347; }
+        .artwork-container .artwork-input-container .search-input input[type="text"]:-ms-input-placeholder {
+          color: #FF6347; }
+        .artwork-container .artwork-input-container .search-input input[type="text"]::-ms-input-placeholder {
+          color: #FF6347; }
+        .artwork-container .artwork-input-container .search-input input[type="text"]:focus {
+          border: none; }
+    .artwork-container .artwork-input-container .results-div {
+      margin: 15px 0px 20px 0px; }
+  .artwork-container .artwork-results-container {
+    z-index: 10; }
+    .artwork-container .artwork-results-container .card-deck {
+      padding-top: 40px; }
+      .artwork-container .artwork-results-container .card-deck .card {
+        width: 300px;
+        height: 375px;
+        margin: 0 auto;
+        margin-bottom: 30px; }
+        .artwork-container .artwork-results-container .card-deck .card a {
+          color: black;
+          text-decoration: none; }
+          .artwork-container .artwork-results-container .card-deck .card a:focus {
+            outline: none; }
+        .artwork-container .artwork-results-container .card-deck .card .card-img-content {
+          height: 12em;
+          position: relative; }
+          .artwork-container .artwork-results-container .card-deck .card .card-img-content .card-img-top {
+            object-fit: none;
+            object-position: center;
+            width: 100%;
+            height: 175px;
+            margin-bottom: 1rem;
+            opacity: 1.0; }
+          .artwork-container .artwork-results-container .card-deck .card .card-img-content .card-title {
+            position: absolute;
+            bottom: -7px;
+            color: #FFA500;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 10px 10px;
+            margin: 0 auto;
+            padding: 15px 15px;
+            width: 100%; }
+        .artwork-container .artwork-results-container .card-deck .card .card-content {
+          padding: 20px; }
+          .artwork-container .artwork-results-container .card-deck .card .card-content .keyword-overflow {
+            width: 100%;
+            height: 100px;
+            overflow-y: auto; }
+        .artwork-container .artwork-results-container .card-deck .card:hover {
+          opacity: 0.5; }
+  .artwork-container .pager li.disabled a {
+    color: gray; }
+    .artwork-container .pager li.disabled a:hover {
+      background-color: transparent; }
+  .artwork-container .pager li > a {
+    background-color: transparent;
+    border: 0;
+    border-radius: none;
+    font-size: 2em;
+    color: #FF6347; }
+    .artwork-container .pager li > a:focus {
+      outline: none;
+      outline-offset: none; }
