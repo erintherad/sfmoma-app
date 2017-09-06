@@ -6,7 +6,7 @@ This interactive dashboard calls the SFMOMA API to retrieve and show various art
 
 ### Graphs
 
-![graphs](./public/graphs.png)
+![graphs](./react-ui/public/graphs.png)
 
 * The first graph showcases the amount of collected art that was created in the last century.  Photography, Painting & Sculpture, and Architecture & Design are all accumulated on the graph throughout time. Users can hover over each section to understand which collected art relates to each portion.
 
@@ -16,7 +16,7 @@ This interactive dashboard calls the SFMOMA API to retrieve and show various art
 
 ### Artwork Query
 
-![artwork](./public/artwork.png)
+![artwork](./react-ui/public/artwork.png)
 
 Users can also search for artwork based on keyword. A list of results will dynamically appear along with relevant high-level information about each piece.  Users can browse throughout the results and they may click on each piece to forward them back to the SFMOMA website which contains additional information about each piece.
 
