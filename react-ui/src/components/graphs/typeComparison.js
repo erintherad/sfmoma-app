@@ -3,7 +3,8 @@ import { VictoryChart,
          VictoryStack,
          VictoryGroup,
          VictoryPortal,
-         VictoryArea
+         VictoryArea,
+         VictoryAxis
         } from 'victory';
 
 export default class TypeComparison extends React.Component {
@@ -18,13 +19,24 @@ export default class TypeComparison extends React.Component {
     var stackedMediumOverTime =
       <div>
         <VictoryChart scale={{x: "time"}} animate={{ duration: 2000 }} height={400} width={400}>
+          <VictoryAxis crossAxis
+            width={400}
+            height={400}
+            standalone={false}
+          />
+          <VictoryAxis dependentAxis crossAxis
+            width={400}
+            height={400}
+            offsetX={50}
+            standalone={false}
+          />
           <VictoryStack colorScale={["tomato", "orange", "gold"]}>
             <VictoryGroup
               data={[
-                {x: new Date(1900, 0, 1), y: 68},
-                {x: new Date(1925, 0, 1), y: 190},
-                {x: new Date(1975, 0, 1), y: 1268},
-                {x: new Date(2000, 0, 1), y: 3448}
+                {x: Date.parse("1900-01-01"), y: 68},
+                {x: Date.parse("1925-01-01"), y: 190},
+                {x: Date.parse("1975-01-01"), y: 1268},
+                {x: Date.parse("2000-01-01"), y: 3448}
               ]}
             >
               <VictoryArea
@@ -77,10 +89,10 @@ export default class TypeComparison extends React.Component {
             </VictoryGroup>
             <VictoryGroup
               data={[
-                {x: new Date(1900, 0, 1), y: 316},
-                {x: new Date(1925, 0, 1), y: 824},
-                {x: new Date(1975, 0, 1), y: 2581},
-                {x: new Date(2000, 0, 1), y: 2971}
+                {x: Date.parse("1900-01-01"), y: 316},
+                {x: Date.parse("1925-01-01"), y: 824},
+                {x: Date.parse("1975-01-01"), y: 2581},
+                {x: Date.parse("2000-01-01"), y: 2971}
               ]}
             >
               <VictoryArea
@@ -133,10 +145,10 @@ export default class TypeComparison extends React.Component {
             </VictoryGroup>
             <VictoryGroup
               data={[
-                {x: new Date(1900, 0, 1), y: 640},
-                {x: new Date(1925, 0, 1), y: 2444},
-                {x: new Date(1975, 0, 1), y: 3326},
-                {x: new Date(2000, 0, 1), y: 5116}
+                {x: Date.parse("1900-01-01"), y: 640},
+                {x: Date.parse("1925-01-01"), y: 2444},
+                {x: Date.parse("1975-01-01"), y: 3326},
+                {x: Date.parse("2000-01-01"), y: 5116}
               ]}
             >
               <VictoryArea
