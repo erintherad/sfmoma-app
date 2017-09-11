@@ -38,15 +38,16 @@ You can run this application locally by the following set of instructions. Pleas
 
 ### Installation 🔌
 
-1. `git clone git@github.com:erintherad/sfmoma_artist_app.git`
+1. `git clone git@github.com:erintherad/sfmoma-app.git`
 2. `cd` into directory and `npm i` at root to install all `node` dependencies
 3. `cd` into `/react-ui` and `npm i` to install all `react` dependencies
 
 ### Start servers 📡
 
 1. At root, `npm start` to start the back-end server.
-2. `cd` into  `/react-ui` and `npm start` to start front-end compiling for `react`.
-3. Go to [browser](http://localhost:3001/).
+2. Open another terminal window and from root `cd` into  `/react-ui` and `npm start` to start front-end compiling for `react`.  
+3. A prompt will ask you: _Would you like to run the app on another port instead?_ _(Y/n)_ Type Y to proceed.
+4. Go to [browser](http://localhost:3001/) or localhost:3001
 
 ## 📠 Technologies
 
